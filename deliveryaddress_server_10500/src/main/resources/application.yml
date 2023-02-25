@@ -1,0 +1,21 @@
+server:
+  port: 10500
+
+spring:
+  application:
+  name: deliveryaddress-server
+  #业务配置
+  datasource:
+  username: root
+  password: 1234567
+  url: jdbc:mysql://localhost:3306/elm?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+  driver-class-name: com.mysql.jdbc.Driver
+#业务配置
+logging:
+  level:
+  org.springframework: debug
+  com.neusoft.mapper: debug
+#业务配置
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.neusoft.po
