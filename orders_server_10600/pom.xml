@@ -1,14 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-
-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>com.neusoft</groupId>
         <artifactId>springcloud_elm</artifactId>
+        <groupId>com.neusoft</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>cart_server_10400</artifactId>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>orders_server_10600</artifactId>
+
     <dependencies>
         <!--以下是boot -->
         <dependency>

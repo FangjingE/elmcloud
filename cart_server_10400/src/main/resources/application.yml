@@ -1,15 +1,15 @@
 server:
-  port: 10500
+  port: 10400
 
 spring:
   application:
-   name: deliveryaddress-server
+    name: cart-server
   #业务配置
   datasource:
-   username: root
-   password: 1234567
-   url: jdbc:mysql://localhost:3306/elm?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
-   driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 1234567
+    url: jdbc:mysql://localhost:3306/elm?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.jdbc.Driver
 #业务配置
 logging:
   level:
