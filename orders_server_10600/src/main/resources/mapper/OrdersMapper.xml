@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.neusoft.elmboot.mapper.OrdersMapper">
+<mapper namespace="com.neusoft.mapper.OrdersMapper">
 
     <resultMap id="ordersResultMap" type="Orders">
         <id column="orderId" property="orderId"/>
@@ -13,19 +13,19 @@
         <result column="orderState" property="orderState"/>
 
         <association property="business" javaType="Business"
-                     select="com.neusoft.elmboot.mapper.BusinessMapper.getBusinessById" column="businessId"></association>
+                     select="com.neusoft.mapper.BusinessMapper.getBusinessById" column="businessId"></association>
 
-        <collection property="list" ofType="com.neusoft.elmboot.po.OrderDetailet"
-                    select="com.neusoft.elmboot.mapper.OrderDetailetMapper.listOrderDetailetByOrderId" column="orderId"></collection>
+        <collection property="list" ofType="OrderDetailet"
+                    select="com.neusoft.mapper.OrderDetailetMapper.listOrderDetailetByOrderId" column="orderId"></collection>
     </resultMap>
-    <select id="getOrdersById" parameterType="com.neusoft.elmboot.po.Orders" resultMap="ordersResultMap">
+    <select id="getOrdersById" parameterType="Orders" resultMap="ordersResultMap">
         select * from orders
         <where>
             orderId=#{orderId}
         </where>
     </select>
 
-    <select id="listOrdersByUserId" parameterType="com.neusoft.elmboot.po.Orders" resultMap="ordersResultMap">
+    <select id="listOrdersByUserId" parameterType="Orders" resultMap="ordersResultMap">
         select * from orders
         <where>
             userId=#{userId}

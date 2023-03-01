@@ -13,6 +13,9 @@
         <module>business_server_10300</module>
         <module>cart_server_10400</module>
         <module>orders_server_10600</module>
+        <module>eureka_server_13000</module>
+        <module>eureka_server_13001</module>
+        <module>food_server_10201</module>
 
 
     </modules>
