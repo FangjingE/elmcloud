@@ -8,6 +8,7 @@
         <artifactId>springcloud_elm</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
+
     <artifactId>cart_server_10400</artifactId>
     <dependencies>
         <!--以下是boot -->

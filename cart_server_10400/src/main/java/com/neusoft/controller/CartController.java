@@ -7,7 +7,7 @@ import com.neusoft.service.CartService;
 
 import java.util.List;
 
-@CrossOrigin("*")
+//@CrossOrigin("*")
 @RestController
 @RequestMapping("/CartController")
 public class CartController {

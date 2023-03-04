@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.neusoft.po.CommonResult;
 import com.neusoft.po.User;
 import com.neusoft.service.UserService;
-@CrossOrigin("*") //跨域处理
+//@CrossOrigin("*") //跨域处理
 @RestController
 @RequestMapping("/UserController")
 public class UserController {

@@ -13,7 +13,7 @@ import com.neusoft.service.FoodService;
 
 
 import java.util.List;
-@CrossOrigin("*")
+//@CrossOrigin("*")
 @RestController
 @RequestMapping("/FoodController")
 public class FoodController {

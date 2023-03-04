@@ -17,7 +17,7 @@ import com.neusoft.po.Business;
 import com.neusoft.po.CommonResult;
 import com.neusoft.po.Food;
 import com.neusoft.service.BusinessService;
-@CrossOrigin("*")
+//@CrossOrigin("*")
 @RestController
 @RequestMapping("/BusinessController")
 public class BusinessController {
@@ -36,10 +36,10 @@ public class BusinessController {
     public CommonResult<List> listBusinessByOrderTypeId(@PathVariable("orderTypeId") Integer
                                                                 orderTypeId) throws Exception{
         List<Business> list = businessService.listBusinessByOrderTypeId(orderTypeId);
-        return new CommonResult(200,"success",list);
+        return new CommonResult(200,"success（10300）",list);
     }
 
-    @RequestMapping("/getBusinessById/{businessId}")
+    @GetMapping("/getBusinessById/{businessId}")
     public CommonResult<Business> getBusinessById(@PathVariable("businessId") Integer
                                                           businessId) throws Exception{
 
@@ -51,13 +51,15 @@ public class BusinessController {
 
 
 
-        //使用DiscoveryClient获取元数据，主机地址与端口就可以不硬编码了
-        CommonResult<List> result =
-                foodFeignClient.listFoodByBusinessId(businessId);
+        //在商家微服务中调用食品微服务
+        CommonResult<List> result = foodFeignClient.listFoodByBusinessId(businessId);
         System.out.println(result.getMessage());
+        //如果食品微服务返回降级响应，那么就返回空集合
         if(result.getCode()==200) {
             business.setFoodList(result.getResult());
+        }else {
+            business.setFoodList(new ArrayList());
         }
-        return new CommonResult(200,"success",business);
+        return new CommonResult(200,"success（10300）",business);
     }
 }

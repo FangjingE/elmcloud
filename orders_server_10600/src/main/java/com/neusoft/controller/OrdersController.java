@@ -10,7 +10,7 @@ import com.neusoft.po.CommonResult;
 import java.util.List;
 import com.neusoft.po.Orders;
 import com.neusoft.service.OrdersService;
-@CrossOrigin("*")
+//@CrossOrigin("*")
 @RestController
 @RequestMapping("/OrdersController")
 public class OrdersController {

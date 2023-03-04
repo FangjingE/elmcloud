@@ -28,3 +28,8 @@ Invalid bound statement (not found): com.neusoft.mapper.CartMapper.listCart 原�
 无法更新购物车。原因：因为之前的Bug和误操作，数据库里针对某一个食品有多条购物车数据，导致数据紊乱。
   
 6.Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'
+前端参数有误
+7.getmapping有什么区别
+
+8.做gateway启动Business微服务时报错。错误信息表明数据库url连接异常。
+原因：误给business_server模块建了一个子模块，导致pom.xml文件里自动配置了一个<packaging>pom</packaging>。
