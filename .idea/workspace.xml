@@ -4,37 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="020095a0-f297-4651-a1a8-106460b0befd" name="Changes" comment="完成Config配置管理中心">
+    <list default="true" id="020095a0-f297-4651-a1a8-106460b0befd" name="Changes" comment="完成bus动态刷新配置">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business_server_10300/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business_server_10300/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business_server_10300/src/main/java/com/neusoft/controller/BusinessController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business_server_10300/src/main/java/com/neusoft/controller/BusinessController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business_server_10301/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business_server_10301/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business_server_10301/src/main/java/com/neusoft/controller/BusinessController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business_server_10301/src/main/java/com/neusoft/controller/BusinessController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart_server_10400/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cart_server_10400/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart_server_10400/src/main/java/com/neusoft/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cart_server_10400/src/main/java/com/neusoft/controller/CartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart_server_10401/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cart_server_10401/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart_server_10401/src/main/java/com/neusoft/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cart_server_10401/src/main/java/com/neusoft/controller/CartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config_server_15000/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config_server_15000/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config_server_15000/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config_server_15000/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config_server_15001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config_server_15001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config_server_15001/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config_server_15001/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deliveryaddress_server_10500/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deliveryaddress_server_10500/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deliveryaddress_server_10500/src/main/java/com/neusoft/controller/DeliveryAddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/deliveryaddress_server_10500/src/main/java/com/neusoft/controller/DeliveryAddressController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deliveryaddress_server_10501/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deliveryaddress_server_10501/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deliveryaddress_server_10501/src/main/java/com/neusoft/controller/DeliveryAddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/deliveryaddress_server_10501/src/main/java/com/neusoft/controller/DeliveryAddressController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food_server_10200/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food_server_10200/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food_server_10200/src/main/java/com/neusoft/controller/FoodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/food_server_10200/src/main/java/com/neusoft/controller/FoodController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food_server_10201/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/food_server_10201/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food_server_10201/src/main/java/com/neusoft/controller/FoodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/food_server_10201/src/main/java/com/neusoft/controller/FoodController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway_server_14000/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway_server_14000/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders_server_10600/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orders_server_10600/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders_server_10600/src/main/java/com/neusoft/controller/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/orders_server_10600/src/main/java/com/neusoft/controller/OrdersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders_server_10601/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orders_server_10601/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders_server_10601/src/main/java/com/neusoft/controller/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/orders_server_10601/src/main/java/com/neusoft/controller/OrdersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_server_10100/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user_server_10100/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_server_10100/src/main/java/com/neusoft/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user_server_10100/src/main/java/com/neusoft/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_server_10101/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user_server_10101/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_server_10101/src/main/java/com/neusoft/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user_server_10101/src/main/java/com/neusoft/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,19 +33,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "corretto-1.8",
-    "last_opened_file_path": "F:/university/elmplus/springcloud_elm/orders_server_10601/src/main/resources",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/university/elmplus/springcloud_elm/orders_server_10601/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.ignored.files&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\university\elmplus\springcloud_elm\orders_server_10601\src\main\resources" />
@@ -143,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677992194481</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="完成bus动态刷新配置">
+      <created>1678002052014</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678002052014</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,7 +156,8 @@
     <MESSAGE value="complete feign" />
     <MESSAGE value="完成网关" />
     <MESSAGE value="完成Config配置管理中心" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成Config配置管理中心" />
+    <MESSAGE value="完成bus动态刷新配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成bus动态刷新配置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

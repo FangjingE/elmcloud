@@ -44,7 +44,7 @@ spring:
      -    id: deliveryaddressServer
           uri: lb://deliveryaddress-server
           predicates:
-          - Path=/DeliveryaddressController/*/**
+          - Path=/DeliveryAddressController/*/**
 
      -    id: ordersServer
           uri: lb://orders-server
