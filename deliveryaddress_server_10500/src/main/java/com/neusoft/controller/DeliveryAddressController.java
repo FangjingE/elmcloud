@@ -1,5 +1,6 @@
 package com.neusoft.controller;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.*;
 import com.neusoft.po.CommonResult;
 import com.neusoft.po.DeliveryAddress;
@@ -9,6 +10,7 @@ import java.util.List;
 //@CrossOrigin("*")
 @RestController
 @RequestMapping("/DeliveryAddressController")
+@RefreshScope //开启动态刷新
 public class DeliveryAddressController {
  @Autowired
  private DeliveryAddressService deliveryAddressService;

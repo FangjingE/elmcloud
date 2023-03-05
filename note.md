@@ -1,4 +1,4 @@
-1.父工程pom.xml文件里对artifactId的命名和微课不同，不匹配的命名导致项目报错 
+1.父工程pom.xml文件里对artifactId的命名和微课不同，不匹配的命名导致项目报错
 
 2.第一次运行报错： 
 
@@ -36,3 +36,7 @@ Invalid bound statement (not found): com.neusoft.mapper.CartMapper.listCart 原�
 
 
 9.做完config配置后测试会有一段时间无响应。可能是因为配置文件的数据还未缓存好。
+
+10.post http://localhost:15000/actuator/bus-refresh之后没有更新配置信息。
+
+原因：可能是因为Pom.xml的依赖文件没有导入，重载了一下再重新启动就解决了。

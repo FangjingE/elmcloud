@@ -1,5 +1,6 @@
 package com.neusoft.controller;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.*;
 import com.neusoft.po.CommonResult;
 import com.neusoft.po.Cart;
@@ -10,6 +11,7 @@ import java.util.List;
 //@CrossOrigin("*")
 @RestController
 @RequestMapping("/CartController")
+@RefreshScope //开启动态刷新
 public class CartController {
     @Autowired
     private CartService cartService;

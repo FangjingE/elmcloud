@@ -1,5 +1,6 @@
 package com.neusoft.controller;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -12,6 +13,7 @@ import com.neusoft.service.UserService;
 //@CrossOrigin("*") //跨域处理
 @RestController
 @RequestMapping("/UserController")
+@RefreshScope //开启动态刷新
 public class UserController {
 
     @Autowired

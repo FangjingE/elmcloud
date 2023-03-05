@@ -5,6 +5,7 @@ import java.util.List;
 import com.neusoft.feign.FoodFeignClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -20,6 +21,7 @@ import com.neusoft.service.BusinessService;
 //@CrossOrigin("*")
 @RestController
 @RequestMapping("/BusinessController")
+@RefreshScope //开启动态刷新
 public class BusinessController {
 
     @Autowired

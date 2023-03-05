@@ -4,10 +4,12 @@ import com.neusoft.po.CommonResult;
 import com.neusoft.po.User;
 import com.neusoft.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.*;
 //@CrossOrigin("*") //跨域处理
 @RestController
 @RequestMapping("/UserController")
+@RefreshScope //开启动态刷新
 public class UserController {
 
     @Autowired
