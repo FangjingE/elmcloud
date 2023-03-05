@@ -1,21 +1,16 @@
 server:
-  port: 10201
-logging:
-  level:
-   org.springframework: debug
-   com.neusoft.mapper: debug
+  port: 15000
+
 spring:
   application:
-   name: food-server
-  datasource:
-   username: root
-   password: 1234567
-   url: jdbc:mysql://localhost:3306/elm?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
-   driver-class-name: com.mysql.jdbc.Driver
-mybatis:
-  mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: com.neusoft.po
-#eureka配置
+    name: config-server
+  #业务配置
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/Mingjiangjushi/elmcloud-scc.git
 eureka:
   client:
     service-url:

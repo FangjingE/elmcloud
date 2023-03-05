@@ -1,0 +1,23 @@
+spring:
+  cloud:
+    config:
+      #应用名称。对应git中文件名称的前半部分
+      name: food_server_10201
+      #开发环境。对应git中文件名称的后半部分
+      profile: dev
+      #git分支
+      label: master
+      #config server的请求地址
+      discovery:
+        enabled: true #开启服务发现
+        service-id: config-server #config server服务名
+  #eureka配置
+eureka:
+  client:
+    service-url:
+      #将自己注册给Eureka Server集群
+      defaultZone:
+        http://eurekaServer13000:13000/eureka,http://eurekaServer13001:13001/eureka
+  instance:
+    prefer-ip-address: true #使用ip地址注册
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}

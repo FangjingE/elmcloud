@@ -33,3 +33,6 @@ Invalid bound statement (not found): com.neusoft.mapper.CartMapper.listCart 原�
 
 8.做gateway启动Business微服务时报错。错误信息表明数据库url连接异常。
 原因：误给business_server模块建了一个子模块，导致pom.xml文件里自动配置了一个<packaging>pom</packaging>。
+
+
+9.做完config配置后测试会有一段时间无响应。可能是因为配置文件的数据还未缓存好。
