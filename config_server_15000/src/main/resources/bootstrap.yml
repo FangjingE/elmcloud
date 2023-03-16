@@ -10,7 +10,7 @@ spring:
     config:
       server:
         git:
-          uri: https://gitee.com/Mingjiangjushi/elmcloud-scc.git
+          uri: https://gitee.com/Mingjiangjushi/elmcloudscc.git
     # rabbitmq的配置
   rabbitmq:
     host: 127.0.0.1

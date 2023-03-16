@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="020095a0-f297-4651-a1a8-106460b0befd" name="Changes" comment="完成bus动态刷新配置">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway_server_14000/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway_server_14000/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config_server_15000/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config_server_15000/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config_server_15001/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config_server_15001/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

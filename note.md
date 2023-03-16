@@ -44,3 +44,6 @@ Invalid bound statement (not found): com.neusoft.mapper.CartMapper.listCart 原�
 11.用户地址微服务出错，错误提示中有’CORS‘。
 
 原因：在geteway网关的配置文件中输错了控制器名字
+
+
+12. 把整个仓库Push到存放配置文件的远程仓库，并再次尝试启动发现启动不了。重新创建一个仓库来存放配置文件后就解决了。可能是因为Spring cloud bus 这个实现配置刷新对仓库的目录或格式有要求。并且，对配置文件的名字也有要求。微服务的yml文件只能叫bootstrap。
